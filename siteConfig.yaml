@@ -23,7 +23,6 @@ login:
     - separatorLine: true
     - label: Sign out
       logout: true
-      link: "https://your_domain/v2/logout?client_id=YOUR_CLIENT_ID&returnTo=LOGOUT_URL"
 toc:
   enable: true
 oasDefinitions:
