@@ -1,0 +1,57 @@
+# See https://redocly.com/docs/cli/configuration/ for more information.
+apis:
+  sample@v1:
+    root: openapi/openapi.yaml
+lint:
+  extends:
+    - recommended
+  rules:
+    no-unused-components: error
+features.openapi:
+  showConsole: true
+  htmlTemplate: ./docs/index.html
+  theme:
+    layout:
+      showDarkRightPanel: true
+    colors:
+      primary:
+        main: "#222222"
+      accent:
+        light: "#68D391"
+        main: "#48BB78"
+        dark: "#2F855A"
+      http:
+        get: "#38A169"
+      text:
+        light: "#FFFFFF"
+        primary: "#444444"
+        secondary: "#888888"
+    logo:
+      gutter: "20px"
+    fab:
+      color: "#FFFFFF"
+      backgroundColor: "#111111"
+    rightPanel:
+      backgroundColor: "#222222"
+      panelBackgroundColor: "#000000"
+      panelControlsBackgroundColor: "#111111"
+    shape:
+      borderRadius: "0"
+    sidebar:
+      activeBgColor: "#E5E5E5"
+      activeTextColor: "#38A169"
+      fontFamily: "AkkuratMonoLLWeb-Regular"
+    typography:
+      fontFamily: "AkkuratLLWeb-Regular"
+      code:
+        fontFamily: "AkkuratMonoLLWeb-Regular"
+      headings:
+        fontFamily: "AkkuratMonoLLWeb-Regular"
+        fontWeight: "100"
+  generateCodeSamples:
+    languages: # Array of language config objects; indicates in which languages to generate code samples.
+      - lang: curl
+      - lang: Node.js
+      - lang: JavaScript
+      - lang: PHP
+      - lang: Python
