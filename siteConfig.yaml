@@ -23,6 +23,7 @@ login:
     - separatorLine: true
     - label: Sign out
       logout: true
+      link: "https://canoo.com"
 toc:
   enable: true
 oasDefinitions:
