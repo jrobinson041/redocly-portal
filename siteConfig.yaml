@@ -9,7 +9,7 @@ linkChecker:
   options:
     CheckExternal: false
 logo:
-  image: ./images/logo.png
+  image: ./images/logo.svg
   altText: Redocly Training
 toc:
   enable: true
@@ -19,20 +19,20 @@ oasDefinitions:
 stylesheets:
   - https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700&display=swap
   - https://fonts.googleapis.com/css?family=Source+Code+Pro:300,400,600,700&display=swap
+  - "./static/fonts.css"
 #analytics:
-  # ga:
-  # note that GA doesn't work in the development environment
-  #  trackingId: UA-45997213-1
+# ga:
+# note that GA doesn't work in the development environment
+#  trackingId: UA-45997213-1
 #scripts:
 #  - ./static/intercom.js
 nav:
-
   - label: Training exercises
     page: developer-portal/index.md
 
   - label: External docs
     icon: ./images/redocly-icon-white.png
-    href: https://redoc.ly/docs/developer-portal/introduction/
+    href: https://test-canoo.redoc.ly/
 
   - search: true
 
@@ -42,11 +42,11 @@ footer:
     - group: Legal
       items:
         - label: Terms of Use
-          href: 'https://redoc.ly/subscription-agreement/'
+          href: "https://redoc.ly/subscription-agreement/"
         - label: Privacy Notice
-          href: 'https://redoc.ly/privacy-notice/'
+          href: "https://redoc.ly/privacy-notice/"
         - label: Cookie Notice
-          href: 'https://redoc.ly/cookie-notice/'
+          href: "https://redoc.ly/cookie-notice/"
     - group: Support
       items:
         - label: FAQ

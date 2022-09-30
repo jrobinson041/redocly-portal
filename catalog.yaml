@@ -1,0 +1,5 @@
+# List of APIs from the registry to integrate into the portal.
+apiCatalog:
+  - title: Client
+    versions: # One or more versions of the API to integrate.
+      - link: https://api.redocly.com/registry/assets/test-canoo/sample/v1?branch=main
