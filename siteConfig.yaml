@@ -11,6 +11,19 @@ linkChecker:
 logo:
   image: ./images/logo.svg
   altText: Redocly Training
+login:
+  label: Sign in
+  userAvatar:
+    claim: picture
+    fallbackLettersClaim: fullName
+  userLabel: false
+  menu:
+    - label: Profile
+      page: profile.mdx
+    - separatorLine: true
+    - label: Sign out
+      logout: true
+      link: "https://your_domain/v2/logout?client_id=YOUR_CLIENT_ID&returnTo=LOGOUT_URL"
 toc:
   enable: true
 oasDefinitions:
